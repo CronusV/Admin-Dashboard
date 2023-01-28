@@ -34,6 +34,10 @@ body {
   grid-row: 1 / span 2;
   grid-column: 1 / span 1; /* I know this is redundant but I want to use span :p */
   background-color: #e879f9; /* 400 */
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr;
 }
 
 .header {
