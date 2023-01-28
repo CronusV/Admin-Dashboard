@@ -9,6 +9,12 @@ html {
 *:after {
   box-sizing: inherit;
 }
+/* Good resource too look at already made color palletes to use
+https://tailwindcss.com/docs/customizing-colors
+
+Resource to find icons
+https://pictogrammers.com/library/mdi/
+*/
 
 body {
   margin: 0;
