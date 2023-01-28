@@ -1,13 +1,18 @@
 /* https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 /* This helps with sizing components in our html/css */
+/* Remeber that you need to put the inherit on every thing you change in the start tags */
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+  margin: inherit;
+  padding: inherit;
 }
 /* Good resource too look at already made color palletes to use
 https://tailwindcss.com/docs/customizing-colors
@@ -38,6 +43,10 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto 1fr;
+}
+
+.nav_list {
+  list-style: none;
 }
 
 .header {
