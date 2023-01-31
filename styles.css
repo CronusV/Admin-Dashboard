@@ -56,19 +56,22 @@ body {
   margin-right: 10px;
 
   /* This is used to change the color of the svg image, instead of manually changing every color in each svg */
-  filter: invert(100%) sepia(0%) saturate(7456%) hue-rotate(187deg)
-    brightness(112%) contrast(100%);
+  /* filter: invert(100%) sepia(0%) saturate(7456%) hue-rotate(187deg)
+    brightness(112%) contrast(100%); */
+  /* Another way is to go to each svg and add "fill="#FFFFFF"" to the path to change the color */
   /* align-self: baseline; */
 }
 
 .med_icon {
-  width: 35px;
+  width: 50px;
   margin-right: 10px;
 }
 
 .dashboard__header {
   display: flex;
   align-items: center;
+  font-size: 25px;
+  font-weight: 700;
 }
 .nav_list > li {
   display: flex;
