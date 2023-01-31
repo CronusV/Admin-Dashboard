@@ -97,6 +97,13 @@ body {
   flex-direction: column;
 }
 
+.small_profile {
+  width: 45px;
+  /* object-fit: cover; */
+  border: 1px solid rgba(79, 184, 88, 0.863);
+  border-radius: 50%;
+}
+
 /* Header end */
 
 .header__top {
