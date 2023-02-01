@@ -95,6 +95,34 @@ body {
 
   display: flex;
   flex-direction: column;
+  padding: 20px 50px;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: auto; */
+}
+
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search_bar {
+  width: 45%;
+  min-width: 75px;
+}
+#form {
+  display: flex;
+}
+#form > input[type="text"] {
+  border: none;
+  background-color: #f5d0fe;
+  height: 22px;
+
+  width: 100%;
+  min-width: 30px;
 }
 
 .small_profile {
@@ -109,17 +137,6 @@ body {
 }
 
 /* Header end */
-
-.header__top {
-  display: flex;
-  justify-content: space-around;
-  /* margin-bottom: auto; */
-}
-
-.header__bottom {
-  display: flex;
-  justify-content: space-around;
-}
 
 .main {
   grid-row: 2 / span 1;
