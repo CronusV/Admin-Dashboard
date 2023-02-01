@@ -45,7 +45,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto 1fr;
-  gap: 32px;
+  gap: 35px;
 
   padding: 1rem 1rem;
 }
@@ -79,7 +79,7 @@ body {
   display: flex;
 
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 500;
 }
 
@@ -102,6 +102,10 @@ body {
   /* object-fit: cover; */
   border: 1px solid rgba(79, 184, 88, 0.863);
   border-radius: 50%;
+}
+
+.med_profile {
+  width: 80px;
 }
 
 /* Header end */
