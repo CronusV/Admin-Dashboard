@@ -110,7 +110,7 @@ body {
 }
 
 .search_bar {
-  width: 45%;
+  width: 75%;
   min-width: 75px;
 }
 #form {
@@ -120,7 +120,7 @@ body {
   border: none;
   background-color: #f5d0fe;
   height: 22px;
-
+  border-radius: 10px;
   width: 100%;
   min-width: 30px;
 }
@@ -131,9 +131,61 @@ body {
   border: 1px solid rgba(79, 184, 88, 0.863);
   border-radius: 50%;
 }
+/* .profile_bar > .small_profile {
+  margin-right: 20px;
+} */
+
+.profile_bar > img,
+.profile_bar > .small_profile {
+  margin-right: 25px;
+}
 
 .med_profile {
   width: 80px;
+}
+
+.profile_bar {
+  display: flex;
+  align-items: center;
+}
+
+.profile_bar__text {
+  font-weight: bold;
+}
+
+.profile_display {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.greeting {
+  font-weight: bold;
+}
+
+.greeting__small {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.greeting__big {
+  font-size: 25px;
+}
+
+.post_options {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.post_options > button {
+  color: #fdf4ff;
+  border: none;
+  background-color: #e879f9;
+  width: 75px;
+  height: 30px;
+  border-radius: 15px;
 }
 
 /* Header end */
