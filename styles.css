@@ -242,6 +242,31 @@ body {
 
   border-left: 10px solid #006e68;
   padding: 30px 20px 20px 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project_header > .profile_bar__text {
+  margin-bottom: 5px;
+}
+.project_icons_list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+
+.project_icon {
+  width: 24px;
+}
+
+.project_icons_list > li {
+  margin-right: 45px;
+}
+
+/* To make sure theres no extra space at the last icon */
+.project_icons_list > li:last-child {
+  margin-right: 0px;
 }
 
 /* Projects end */
