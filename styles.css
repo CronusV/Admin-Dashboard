@@ -251,7 +251,8 @@ body {
   justify-content: space-between;
 }
 .project_header > .profile_bar__text,
-.main__announcements > .profile_bar__text {
+.main__announcements > .profile_bar__text,
+.main__trending > .profile_bar__text {
   margin-bottom: 5px;
 }
 .project_icons_list {
@@ -305,3 +306,9 @@ body {
   font-size: small;
 }
 /* Announcment End */
+
+/* Trending Start */
+.main__trending {
+  padding-top: 20px;
+}
+/* Trending End */
