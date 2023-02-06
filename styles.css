@@ -338,3 +338,17 @@ body {
   margin-bottom: 2px;
 }
 /* Trending End */
+
+/* Dynamic interactions start */
+
+li:hover,
+button:hover,
+.trending:hover,
+.dashboard__header:hover,
+.small_profile:hover,
+.profile_bar > .small_icon:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.07);
+}
+
+/* Dynamic interactions end */
