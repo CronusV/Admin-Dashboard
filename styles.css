@@ -250,7 +250,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.project_header > .profile_bar__text {
+.project_header > .profile_bar__text,
+.main__announcements > .profile_bar__text {
   margin-bottom: 5px;
 }
 .project_icons_list {
@@ -273,3 +274,34 @@ body {
 }
 
 /* Projects end */
+
+/* Announcment Start */
+.announcement_section {
+  /* display: flex;
+  flex-direction: column; */
+  background-color: #fdf4ff;
+  border-radius: 10px;
+  padding: 2.3rem;
+}
+
+.announcement_header {
+  font-weight: bold;
+}
+.announcement {
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+  margin-top: 15px;
+}
+
+.announcement:first-child {
+  margin-top: 0px;
+}
+.announcement:last-child {
+  padding-bottom: 0px;
+  border-bottom: none;
+}
+
+.announcement_text {
+  font-size: small;
+}
+/* Announcment End */
