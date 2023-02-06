@@ -311,4 +311,14 @@ body {
 .main__trending {
   padding-top: 20px;
 }
+
+.trending_section {
+  background-color: #fdf4ff;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.trending {
+  display: flex;
+  align-items: center;
+}
 /* Trending End */
