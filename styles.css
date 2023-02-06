@@ -81,7 +81,7 @@ body {
 }
 .nav_list > li {
   display: flex;
-
+  -webkit-user-select: none; /* So when hovered highlight doesn't show*/
   align-items: center;
   margin-bottom: 20px;
   font-weight: 500;
